@@ -97,10 +97,8 @@
   background-color: var(--accent-color);
 }
 
-.header__text:first-of-type {
+.header__text {
   margin-block-start: 54px;
-}
-.header__text:last-of-type {
   margin-block-end: 56px;
 }
 
@@ -242,10 +240,8 @@
     margin-block-start: 173px;
   }
 
-  .header__text:first-of-type {
+  .header__text {
     margin-block-start: 163px;
-  }
-  .header__text:last-of-type {
     margin-block-end: 181px;
   }
 
@@ -348,10 +344,8 @@
     margin-block-start: 273px;
   }
 
-  .header__text:first-of-type {
+  .header__text {
     margin-block-start: 114px;
-  }
-  .header__text:last-of-type {
     margin-block-end: 134px;
   }
 
