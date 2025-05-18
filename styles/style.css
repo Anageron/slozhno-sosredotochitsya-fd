@@ -118,7 +118,7 @@
 }
 
 .title-decor {
-  color: var(--bg-color);
+  color: var(--text-color);
   background-color: var(--accent-color);
 }
 
@@ -205,11 +205,6 @@
 }
 
 @media (width>=768px) {
-  .header::before {
-    top: 20px;
-    right: 20px;
-  }
-
   .header {
     grid-template-columns: 1fr 1fr;
     min-height: 1024px;
@@ -309,12 +304,12 @@
     padding: 0;
   }
 
-  .footer::before {
+  .decorated-zone::before {
     top: var(--half-square-margin);
     right: var(--half-square-margin);
   }
 
-  .footer::after {
+  .decorated-zone::after {
     bottom: var(--half-square-margin);
     left: var(--half-square-margin);
   }

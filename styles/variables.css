@@ -12,6 +12,7 @@
   --footer-margin: 285px;
   --half-square-margin: 10px;
   --element-color: #ff0070;
+  --text-color:#000028;
 }
 
 @media (width>=768px) {
