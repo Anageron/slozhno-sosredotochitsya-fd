@@ -244,15 +244,12 @@
     grid-column: 1/3;
     margin-block-start: 173px;
   }
-
-  .header__text {
-    margin-block-start: 163px;
-    margin-block-end: 181px;
-  }
-
+  
   .header__text {
     grid-column: 2/3;
     margin-inline-end: 20px;
+    margin-block-start: 163px;
+    margin-block-end: 181px;
   }
 
   .header__text::after {
