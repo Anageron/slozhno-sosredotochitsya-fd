@@ -3,34 +3,34 @@
   и их переопределение под различные устройства
 */
 
-:root{
-  --main-font: 'IBM Plex mono';
-  --bg-color:#000028;
-  --main-font-bold:700;
+:root {
+  --main-font: "IBM Plex mono";
+  --bg-color: #000028;
+  --main-font-bold: 700;
   --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --header-title-color:#DB00FF;
-  --accent-color:#FF0070;
-  --bg-img-url:url(../images/cover-image-dark.png);
-  --main-text-size:18px;
-  --description--color: #F1B2CE;
-  --main-section-gap:50px;
-  --footer-margin:285px;
-  --half-square-margin:10px;
- 
-  --element-color:#FF0070;
-}
-  
-@media (width>=768px){
-  :root{
-    --main-section-gap:80px;
-    --footer-margin:462px;
-    --half-square-margin:20px;
-    --header-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) 
-  }
- }
+  --header-title-color: #db00ff;
+  --accent-color: #ff0070;
+  --bg-img-url: url(../images/cover-image-dark.png);
+  --main-text-size: 18px;
+  --description--color: #f1b2ce;
+  --main-section-gap: 50px;
+  --footer-margin: 285px;
+  --half-square-margin: 10px;
 
- @media (width>=1024px){
-   :root{
-    --footer-margin:319px;
-   }
- }
+  --element-color: #ff0070;
+}
+
+@media (width>=768px) {
+  :root {
+    --main-section-gap: 80px;
+    --footer-margin: 462px;
+    --half-square-margin: 20px;
+    --header-title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
+
+@media (width>=1024px) {
+  :root {
+    --footer-margin: 319px;
+  }
+}

@@ -366,8 +366,8 @@
   }
 
   .reason__description {
-    grid-row: 2;
     grid-column: span 1;
+    grid-row: 2;
   }
 }
 
