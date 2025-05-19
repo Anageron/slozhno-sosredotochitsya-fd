@@ -1,5 +1,5 @@
 :root {
-  --main-font: "IBM Plex mono", "monospace";
+  --main-font: "IBM Plex mono", monospace;
   --bg-color: #000028;
   --main-font-bold: 700;
   --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -13,6 +13,7 @@
   --half-square-margin: 10px;
   --element-color: #ff0070;
   --text-color:#000028;
+  --hover-color:#FF007066;
 }
 
 @media (width>=768px) {
